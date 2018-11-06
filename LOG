@@ -1,2 +1,7 @@
 Pushed at 1468b0473853714d0c9a37bf41f196ea207ab9b9:
 ['/home/prem/precommit-issue-860/test.py', '.pre-commit-config.yaml', 'test.py']
+
+Pushed at cde9d9f7d64913f4158e75529ade88c9ac5236ef (from branch foo):
+['/home/prem/precommit-issue-860/test.py', 'LOG', 'bar']
+But if we add some good branch=master, then we'd get just:
+['/home/prem/precommit-issue-860/test.py', 'bar']
